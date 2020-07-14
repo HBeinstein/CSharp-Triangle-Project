@@ -26,5 +26,19 @@ namespace Tests
       Triangle testScalene = new Triangle();
       Assert.AreEqual(true, testScalene.IsTriangleScalene(1, 2, 3));
     }
+
+    [TestMethod]
+    public void IsNotATriangle_NotATriangle_True()
+    {
+      Triangle testNotATriangle = new Triangle();
+      Assert.AreEqual(true, testNotATriangle.IsNotTriangle(3, 3, 9));
+    }
+
+    // [TestMethod]
+    // public void WhatTypeTriangle_TypeOfTriangle_TypeOfTriangleString()
+    // {
+    //   Triangle testTriangle = new Triangle();
+    //   Assert.AreEqual("isosceles", testTriangle.WhatTypeTriangle(3, 3, 9));
+    // }
   }
 }
