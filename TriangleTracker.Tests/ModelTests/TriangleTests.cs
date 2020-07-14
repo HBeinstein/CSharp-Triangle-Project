@@ -19,5 +19,12 @@ namespace Tests
       Triangle testIsosceles = new Triangle();
       Assert.AreEqual(true, testIsosceles.IsTriangleIsosceles(3, 3, 2));
     }
+
+    [TestMethod]
+    public void IsTriangleScalene_Scalene_True()
+    {
+      Triangle testScalene = new Triangle();
+      Assert.AreEqual(true, testScalene.IsTriangleIsosceles(1, 2, 3));
+    }
   }
 }
