@@ -34,11 +34,11 @@ namespace Tests
       Assert.AreEqual(true, testNotATriangle.IsNotTriangle(3, 3, 9));
     }
 
-    // [TestMethod]
-    // public void WhatTypeTriangle_TypeOfTriangle_TypeOfTriangleString()
-    // {
-    //   Triangle testTriangle = new Triangle();
-    //   Assert.AreEqual("isosceles", testTriangle.WhatTypeTriangle(3, 3, 9));
-    // }
+    [TestMethod]
+    public void WhatTypeTriangle_TypeOfTriangle_TypeOfTriangleString()
+    {
+      Triangle testTriangle = new Triangle();
+      Assert.AreEqual("not a triangle", testTriangle.WhatTypeTriangle(3, 3, 9));
+    }
   }
 }
