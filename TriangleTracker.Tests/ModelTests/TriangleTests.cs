@@ -24,7 +24,7 @@ namespace Tests
     public void IsTriangleScalene_Scalene_True()
     {
       Triangle testScalene = new Triangle();
-      Assert.AreEqual(true, testScalene.IsTriangleIsosceles(1, 2, 3));
+      Assert.AreEqual(true, testScalene.IsTriangleScalene(1, 2, 3));
     }
   }
 }
