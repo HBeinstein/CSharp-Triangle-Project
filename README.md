@@ -1,33 +1,40 @@
-# _Currency Exchanger_
+# _Triangle Tracker_
 
-#### _Week 6 project at Epicodus, 7/3/2020_
+#### _Week 6 project at Epicodus, 7/14/2020_
 
-#### By _**Spencer Moody**_
+#### By _**Spencer Moody and Hannah Beinstein**_
 
 ## Description
 
-_This is an application that will take a users inputted amount (in USD) and outputs a converted amount for the selected country._
+_This is an application that will check to see what kind of triangle the user has based on 3 inputted lengths._
 
 ## Specs
 
 | Spec | Input | Output |
 | :-------------      | :------------- | :------------- |
-| ** 1. The program will allow the user to enter an amount in USD | 100 | -- |
-| ** 2. The program will allow the user to select the currency they would like to convert to | EUR | EUR |
-| ** 3. The program will return an error message if the user trys to convert to a currency that is not supported | "something" | "Currency does not exist, please try a different currency" |
-| ** 4. The program will return the converted currency | 100 USD | 88.94 EUR |
-| ** 5. The program will allow the user to convert between all currencies | EUR | USD |
+| ** 1. The program will prompt the user to enter 3 lengths | 3, 3, 5 | -- |
+| ** 2. The program will tell the user if it is an Equilateral triangle | 3, 3, 3 | "Equilateral" |
+| ** 3. The program will tell the user if it is an Isosceles triangle | 3, 3, 5 | "Isosceles" |
+| ** 4. The program will tell the user if it is an Scalene triangle | 1, 2, 3 | "Scalene" |
+| ** 5. The program will return false if not an Equilateral, Isosceles, or Scalene triangle | 2, 2, 8 | "False" |
 
 ## Setup/Installation Requirements
 
-* _Clone or download this repository located at https://github.com/smoody0208/week-6-project_
-* _Visit https://www.exchangerate-api.com/ and enter your email address to receive a free API key_
-* _In your terminal navigate to the cloned or downloaded repository_
-* _Create a .env file in the projects root directory_
-* _Add the following to your .env file: API_KEY = YOUR UNIQUE API KEY GOES HERE_
-* _Run $ npm run install to download all dev dependencies_
-* _Run $ npm run build to create a dist folder_
-* _Run $ npm run start to to view the project in your browser_
+Software Requirement:
+1. A code editor like VSCode or Atom to view or edit the codebase.
+2. A DOTNET-enabled terminal to run the application.
+
+Open by downloading:
+1. Download this repository onto your computer by clicking the 'clone or download button'
+2. In your terminal, navigate to the `CSharp-Trianlge-Project` directory and run `dotnet run` to activate the program
+3. Alternately, open the project folder in your code editor to alter the code.
+
+Open via Bash/GitBash:
+1. Clone this repository onto your computer:
+`git clone {PUT_REPO_HERE}`
+2. Navigate into the `{NAME_OF_DIRECTORY}` directory in Visual Studio Code or preferred text editor
+`code .`
+3. Run `dotnet run` to run the program in your console terminal.
 
 ## Known Bugs
 
@@ -39,15 +46,9 @@ _{Let people know what to do if they run into any issues or have questions, idea
 
 ## Technologies Used
 
-* _GitHub_
-* _HTML_
-* _CSS_
-* _BootStrap_
-* _Visual Studio Code_
-* _JavaScript_
-* _jQuery_
-* _Node_
+* _VS Code Studio_
+* _C# & .NET_
 
 ### License
 
-*Copyright (c) 2020 **_Spencer Moody MIT_***
+*Copyright (c) 2020 **_Spencer Moody & Hannah Beinstein MIT_***
